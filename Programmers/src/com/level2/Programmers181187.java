@@ -1,15 +1,13 @@
 package com.level2;
 
+import java.util.Stack;
+
 class Solution181187 {
     public long solution(int r1, int r2) {
     	long answer = 0;
-    	for(int i=0; i<r2-r1; i++) {
-    		answer+=(2*r1+i)*4;
-    		if(r2*r2<(r2-1)*(r2-1))
-    			answer-=4;
+    	for(i=0; i<r2; i++) {
+    		
     	}
-    	answer+=4;
-        return answer;
     }
 }
 
